@@ -6,8 +6,10 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     width: "100%",
+    height: "80%",
   },
   title: {
+    fontSize: 24,
     color: "#FFF",
   },
 });

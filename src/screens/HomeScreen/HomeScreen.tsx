@@ -1,17 +1,15 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, Text } from "react-native";
 import { Counter } from "../../components/Counter/Counter";
+import { styles } from "./styles";
 
 const HomeScreen = () => {
   return (
-    <View style={styles.screen}>
+    <View style={styles.container}>
+      <Text style={styles.title}>CONTATOR REACT NATIVE</Text>
       <Counter />
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  screen: { flex: 1, justifyContent: "center", alignItems: "center" },
-});
 
 export default HomeScreen;
