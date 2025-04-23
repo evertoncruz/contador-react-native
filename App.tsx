@@ -1,19 +1,11 @@
-import { StyleSheet, View } from "react-native";
-import Home from "./src/screens/Home/Home";
+import React from "react";
+import { CounterProvider } from "./src/context/CounterContext";
+import HomeScreen from "./src/screens/HomeScreen/HomeScreen";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Home />
-    </View>
-  );
-}
+const App = () => (
+  <CounterProvider>
+    <HomeScreen />
+  </CounterProvider>
+);
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+export default App;
