@@ -16,6 +16,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 24,
     borderRadius: 8,
     alignItems: "center",
+    width: "80%",
   },
   buttonText: {
     color: "#fff",
@@ -23,6 +24,6 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   buttonIncrement: {
-    marginBottom: "10",
+    marginBottom: 10,
   },
 });
