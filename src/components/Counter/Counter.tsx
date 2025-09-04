@@ -16,7 +16,7 @@ export const Counter = () => {
         <Text style={styles.buttonText}>Incrementar</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={decrement}>
-        <Text style={styles.buttonText}>Incrementar</Text>
+        <Text style={styles.buttonText}>Decrementar</Text>
       </TouchableOpacity>
     </View>
   );
